@@ -11,8 +11,6 @@ module DataAnon
 
       def logger= logger
         @@logger = logger
-        ActiveRecord::Base.logger = logger
-        @@logger
       end
 
     end
