@@ -6,7 +6,7 @@ module DataAnon
     module Logging
 
       def logger
-        @@logger ||= (self.logger = Logger.new(STDOUT) )
+        @@logger
       end
 
       def logger= logger
